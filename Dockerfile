@@ -2,7 +2,7 @@ FROM eclipse-temurin:21
 
 WORKDIR /app
 
-COPY src/main/java/com/example/videojuegosapi .
+COPY . .
 
 RUN chmod +x mvnw
 
